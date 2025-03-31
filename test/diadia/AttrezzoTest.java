@@ -13,8 +13,8 @@ class AttrezzoTest {
 	
 	@Test	
 	public void testNome() {
-		Attrezzo attrezzo = new Attrezzo("martello", 7);
-		assertEquals("martello", attrezzo.getNome());
+		Attrezzo attrezzo = new Attrezzo("martello1", 7);
+		assertEquals("martello1", attrezzo.getNome());
 	}
 	@Test
 	public void testNomeVuoto() {
