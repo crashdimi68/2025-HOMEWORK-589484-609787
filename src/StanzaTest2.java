@@ -1,6 +1,9 @@
 
 //public @interface StanzaTest2 {}
 
+import it.uniroma3.diadia.ambienti.Stanza;
+import it.uniroma3.diadia.attrezzi.Attrezzo;
+
 public class StanzaTest2{
 	
 	public static void main(String[] args) {
