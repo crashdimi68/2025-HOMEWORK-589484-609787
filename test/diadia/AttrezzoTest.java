@@ -57,6 +57,11 @@ class AttrezzoTest {
 		Attrezzo attrezzo = new Attrezzo("", 0);
 		assertEquals(" (0kg)",attrezzo.toString());
 	}
+	@Test
+	public void testStringaNull() {
+		Attrezzo attrezzo = new Attrezzo(null, 6);
+		assertEquals("null (6kg)", attrezzo.toString());
+	}
 	
 	
 	
