@@ -1,20 +1,24 @@
 package diadia;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
 import it.uniroma3.diadia.attrezzi.Attrezzo;
 
-class AttrezzoTest {
+class AttrezzoTest{
 
 	//test per la funzione getNome
 	
+	
+	
+	
+	
 	@Test	
 	public void testNome() {
-		Attrezzo attrezzo = new Attrezzo("martello1", 7);
-		assertEquals("martello1", attrezzo.getNome());
+		Attrezzo attrezzo = new Attrezzo("martello", 7);
+		assertEquals("martello", attrezzo.getNome());
 	}
 	@Test
 	public void testNomeVuoto() {
