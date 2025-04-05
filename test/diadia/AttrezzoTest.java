@@ -9,11 +9,7 @@ import it.uniroma3.diadia.attrezzi.Attrezzo;
 
 class AttrezzoTest{
 
-	//test per la funzione getNome
-	
-	
-	
-	
+	//test per la funzione getNome	
 	
 	@Test	
 	public void testNome() {

@@ -120,7 +120,7 @@ public class Stanza {
 	*/
     public String toString() {
     	StringBuilder risultato = new StringBuilder();
-    	risultato.append(this.nome);
+    	risultato.append("Stanza: "+this.nome);
     	risultato.append("\nUscite: ");
     	for (String direzione : this.direzioni) {
     		if (direzione!=null)
@@ -138,15 +138,20 @@ public class Stanza {
 	* Controlla se un attrezzo esiste nella stanza (uguaglianza sul nome).
 	* @return true se l'attrezzo esiste nella stanza, false altrimenti.
 	*/
-	public boolean hasAttrezzo(String nomeAttrezzo) {
+	
+    /*public boolean hasAttrezzo(String nomeAttrezzo) {
 		boolean trovato;
 		trovato = false;
 		for (Attrezzo attrezzo : this.attrezzi) {
-			if (attrezzo.getNome().equals(nomeAttrezzo))
+			if (attrezzo.getNome().equals(nomeAttrezzo) && attrezzo!=null)
 				trovato = true;
 		}
 		return trovato;
-	}
+	}*/
+    
+    public boolean hasAttrezzo(String nomeAttrezzo) {
+	 		return this.getAttrezzo(nomeAttrezzo)!=null;
+	 	}
 
 	/**
      * Restituisce l'attrezzo nomeAttrezzo se presente nella stanza.
@@ -158,7 +163,7 @@ public class Stanza {
 		Attrezzo attrezzoTrovato;
 		attrezzoTrovato = null;
 		for (Attrezzo attrezzo : this.attrezzi) {
-			if (attrezzo.getNome().equals(nomeAttrezzo))
+			if (attrezzo != null && attrezzo.getNome().equals(nomeAttrezzo))
 				attrezzoTrovato = attrezzo;
 		}
 		return attrezzoTrovato;	
@@ -180,6 +185,8 @@ public class Stanza {
 		 		}
 		return false;
 	}
+	
+	
 
 
 	public String[] getDirezioni() {
