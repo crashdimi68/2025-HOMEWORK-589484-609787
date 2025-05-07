@@ -35,7 +35,15 @@ public class Partita {
 	public boolean isFinita() {
 		return finita || this.labirinto.vinta() || (this.giocatore.getCfu() == 0);
 	}
-
+	
+	public boolean isVinta() {
+		return this.labirinto.vinta();
+	}
+	
+	public boolean giocatoreIsVivo() {
+		return giocatore.getCfu()>0;
+	}
+	
 	/**
 	 * Imposta la partita come finita
 	 *

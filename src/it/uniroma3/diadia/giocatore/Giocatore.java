@@ -28,6 +28,7 @@ package it.uniroma3.diadia.giocatore;
  		this.cfu = cfu;		
  	}
  	
+ 	
  	/**
  	 * Restituisce stringa giocatore
  	 * @return rappresentazione stringa
