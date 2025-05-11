@@ -6,6 +6,7 @@ import it.uniroma3.diadia.Partita;
 
 public class ComandoFine implements Comando{
 
+	final static public String MESSAGGIO_FINE = "partita conclusa, grazie di aver giocato!";
 	private IO io;
 	
 	public ComandoFine(IO io) {
@@ -15,7 +16,7 @@ public class ComandoFine implements Comando{
 	@Override 
 	public void esegui(Partita partita) {
 		partita.setFinita();
-		io.mostraMessaggio("partita conclusa, grazie di aver giocato!");
+		io.mostraMessaggio(MESSAGGIO_FINE);
 	}
 	
 	
