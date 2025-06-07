@@ -51,5 +51,5 @@ public class IOSimulator implements IO {
 	public boolean hasNextMessaggio() {
 		return this.indiceMessaggiMostrati < this.indiceMessaggiProdotti;
 	}
-
+	//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25
 }

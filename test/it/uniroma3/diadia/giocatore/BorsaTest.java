@@ -230,5 +230,5 @@ public class BorsaTest {
 		System.out.println(e);
 		System.out.println(b2.getContenutoRaggruppatoPerPeso());
 		assertTrue(this.controllaMap(e, b2.getContenutoRaggruppatoPerPeso()));
-	}
+	}	//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25
 }

@@ -55,3 +55,4 @@ public abstract class AbstractPersonaggio {
 	
 	abstract public String riceviRegalo(Attrezzo attrezzo, Partita partita);
 }
+//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25

@@ -39,4 +39,4 @@ public class LabirintoTest {
 		assertEquals("Atrio", l.getStanzaCorrente().getNome());
 	}
 
-}
+}	//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25

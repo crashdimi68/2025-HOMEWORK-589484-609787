@@ -29,6 +29,6 @@ public class Giocatore {
 	public void setBorsa(Borsa borsa) {
 		this.borsa = borsa;
 	}	
-	
+	//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25
 	
 }

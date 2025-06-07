@@ -20,7 +20,7 @@ public class StanzaMagicaProtected extends StanzaProtected{
 		this.sogliaMagica = soglia;
 	}
 
-
+	//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25
 	private Attrezzo modificaAttrezzo(Attrezzo attrezzo) {
 		StringBuilder nomeInvertito;
 		int pesoX2 = attrezzo.getPeso() * 2;

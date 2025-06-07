@@ -24,6 +24,7 @@ import it.uniroma3.diadia.personaggi.Mago;
 import it.uniroma3.diadia.personaggi.Strega;
 
 public class CaricatoreLabirinto {
+	//AAAA
 
 	/* prefisso di una singola riga di testo contenente tutti i nomi delle stanze */
 	private static final String STANZE_MARKER = "Stanze:";             

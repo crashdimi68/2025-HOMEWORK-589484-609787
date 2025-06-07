@@ -17,7 +17,7 @@ import it.uniroma3.diadia.attrezzi.Attrezzo;
  * @see Attrezzo
  * @version base
  */
-
+//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25
 public class StanzaProtected {
 
 	protected static final  int NUMERO_MASSIMO_DIREZIONI = 4;

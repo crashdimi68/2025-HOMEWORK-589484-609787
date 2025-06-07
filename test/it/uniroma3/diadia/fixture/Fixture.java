@@ -36,4 +36,4 @@ public class Fixture {
 		return attrezzo;
 	}
 
-}
+}	//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25

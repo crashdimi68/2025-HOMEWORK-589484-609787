@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public final class Configuratore {
+	//aaaaa
 
 	private static final String DIADIA_PROPERTIES = "diadia.properties";
 	private static final String PESO_MAX = "pesoMax";

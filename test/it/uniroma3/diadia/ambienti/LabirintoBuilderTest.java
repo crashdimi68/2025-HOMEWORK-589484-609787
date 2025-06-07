@@ -60,5 +60,5 @@ public class LabirintoBuilderTest {
         assertTrue(lb.getNome2stanza().get("stanzetta").hasAttrezzo("cacciavite"));
     }
 }
-
+//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25
 

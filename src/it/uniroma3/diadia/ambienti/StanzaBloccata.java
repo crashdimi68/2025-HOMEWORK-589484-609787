@@ -30,3 +30,4 @@ public class StanzaBloccata extends Stanza {
 		return super.getDescrizione();
 	}
 }
+//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25

@@ -24,4 +24,4 @@ public class GiocatoreTest {
 	public void testGetBorsaDefault() {
 		assertNotNull(g.getBorsa());
 	}
-}
+}	//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25

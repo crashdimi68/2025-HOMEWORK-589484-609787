@@ -34,3 +34,4 @@ public class StanzaBuiaTest {
 		assertEquals(e, stanza.getDescrizione());
 	}
 }
+//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25

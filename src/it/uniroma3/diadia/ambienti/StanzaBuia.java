@@ -18,3 +18,4 @@ public class StanzaBuia extends Stanza {
 		return super.getDescrizione();
 	}
 }
+//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25

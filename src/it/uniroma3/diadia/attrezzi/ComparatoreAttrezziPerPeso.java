@@ -9,6 +9,6 @@ public class ComparatoreAttrezziPerPeso implements Comparator<Attrezzo> {
 			return obj1.getNome().compareTo(obj2.getNome());
 		return obj1.getPeso()-obj2.getPeso();
 	}
-
+	//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25
 
 }

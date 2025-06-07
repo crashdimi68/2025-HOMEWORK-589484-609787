@@ -2,7 +2,7 @@ package it.uniroma3.diadia.attrezzi;
 import java.util.Objects;
 
 import it.uniroma3.diadia.ambienti.Stanza;
-
+//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25
 /**
  * Una semplice classe che modella un attrezzo.
  * Gli attrezzi possono trovarsi all'interno delle stanze

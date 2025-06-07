@@ -48,4 +48,4 @@ public class Strega extends AbstractPersonaggio {
 		return "AHAHAHAHAHAHHA";
 	}
 
-}
+}	//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25

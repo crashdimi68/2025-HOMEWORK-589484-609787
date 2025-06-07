@@ -75,3 +75,4 @@ public class CaricatoreLabirintoTest {
 		assertEquals(expected, this.cl.getStanzaIniziale().getAttrezzo("martello"));
 		}
 }
+//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25

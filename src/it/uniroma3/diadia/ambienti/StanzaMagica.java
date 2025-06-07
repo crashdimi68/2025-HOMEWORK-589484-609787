@@ -40,5 +40,5 @@ public class StanzaMagica extends Stanza {
 
 		return super.addAttrezzo(attrezzo);
 	}
-
+	//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25
 }

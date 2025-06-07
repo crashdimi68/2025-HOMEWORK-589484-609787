@@ -35,4 +35,4 @@ public class Mago extends AbstractPersonaggio {
 		partita.getStanzaCorrente().addAttrezzo(attrezzoModificato);
 		return risposta.toString();
 	}
-}
+}	//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25

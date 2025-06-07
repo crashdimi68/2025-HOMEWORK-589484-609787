@@ -32,5 +32,5 @@ public class Cane extends AbstractPersonaggio {
 		
 		return risposta.toString();
 	}
-
+	//PROVA CONSEGNA DEFINITIVA HOMEWORK C 25
 }
