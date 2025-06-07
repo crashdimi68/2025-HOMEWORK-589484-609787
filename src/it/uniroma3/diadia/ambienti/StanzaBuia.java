@@ -1,21 +1,20 @@
 package it.uniroma3.diadia.ambienti;
 
-public class StanzaBuia extends Stanza{
-	
-	private static final String MESSAGGIO_BUIO = "qui c'è un buio pesto";
-	
-	private String AttrezzoLuce;
+public class StanzaBuia extends Stanza {
 
-	public StanzaBuia(String nome, String AttrezzoLuce) {
-		super(nome);
-		this.AttrezzoLuce=AttrezzoLuce;
-	}
+	private  String attrezzoLucente;
 	
+	public StanzaBuia(String nome , String attrezzoLucente) {
+		super(nome);
+		this.attrezzoLucente = attrezzoLucente;
+	}
+
 	@Override
 	public String getDescrizione() {
-		if(!this.hasAttrezzo(AttrezzoLuce))
-			return MESSAGGIO_BUIO;
-		else
-			return super.getDescrizione();	
-	}	
+		String buio = new String();
+		buio = "qui c'è un buio pesto";
+		if(!this.hasAttrezzo(attrezzoLucente))
+			return buio;
+		return super.getDescrizione();
+	}
 }

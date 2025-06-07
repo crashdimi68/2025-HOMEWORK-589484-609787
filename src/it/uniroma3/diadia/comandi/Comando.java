@@ -1,8 +1,5 @@
 package it.uniroma3.diadia.comandi;
 
-import java.util.Scanner;
-
-
 import it.uniroma3.diadia.IO;
 import it.uniroma3.diadia.Partita;
 
@@ -20,39 +17,40 @@ import it.uniroma3.diadia.Partita;
 
 public interface Comando {
 
-    /*	private String nome;
-    private String parametro;
-
-    public Comando(String istruzione) {
-		Scanner scannerDiParole = new Scanner(istruzione);
-
-		// prima parola: nome del comando
-		if (scannerDiParole.hasNext())
-			this.nome = scannerDiParole.next(); 
-
-		// seconda parola: eventuale parametro
-		if (scannerDiParole.hasNext())
-			this.parametro = scannerDiParole.next();
+//    private String nome;
+//    private String parametro;
+//
+//    public Comando(String istruzione) {
+//		Scanner scannerDiParole = new Scanner(istruzione);
+//
+//		// prima parola: nome del comando
+//		if (scannerDiParole.hasNext())
+//			this.nome = scannerDiParole.next(); 
+//
+//		// seconda parola: eventuale parametro
+//		if (scannerDiParole.hasNext())
+//			this.parametro = scannerDiParole.next();
+//    }
+//
+//    public String getNome() {
+//        return this.nome;
+//    }
+//
+//    public String getParametro() {
+//        return this.parametro;
+//    }
+//
+//    public boolean sconosciuto() {
+//        return (this.nome == null);
+//    }
     
-		scannerDiParole.close();    }
+    public void esegui(Partita partita);
 
-    public String getNome() {
-        return this.nome;
-    }
+	void setParametro(String parametro);
 
-    public String getParametro() {
-        return this.parametro;
-    }
+	String getParametro();
 
-    public boolean sconosciuto() {
-        return (this.nome == null);
-    } */
+	public void setIo(IO io);
 	
-	public void esegui(Partita partita);
-	
-	public void setParametro(String parametro);
-	
-	public void setIO(IO io);
-	
-	
+	public String getNome();
 }
